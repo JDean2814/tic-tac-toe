@@ -1,0 +1,66 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#character_selector {
+    font-size: larger;
+    margin: 2rem 0;
+}
+
+#character_selector button {
+    background-color: lightgreen;
+    border: none;
+    font-size: large;
+    height: 2rem;
+    width: 3rem;
+}
+
+#board_container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22rem;
+    width: 22rem;
+}
+
+.board_spaces {
+    font-size: 4rem;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: .5rem;
+    height: 6rem;
+    width: 6rem;
+}
+
+.game_message {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game_result {
+    font-size: 4rem;
+}
+
+#restart_game_btn {
+    background-color: lightcoral;
+    border-radius: 8px;
+    font-size: 2rem;
+    height: 4rem;
+    width: 8rem;
+}
