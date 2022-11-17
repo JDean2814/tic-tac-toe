@@ -20,6 +20,10 @@ h1 {
     width: 3rem;
 }
 
+#character_selector button:hover {
+    background-color: rgb(106, 177, 106);
+}
+
 #board_container {
     margin: 0 auto;
     display: flex;
@@ -37,6 +41,10 @@ h1 {
     margin: .5rem;
     height: 6rem;
     width: 6rem;
+}
+
+.board_spaces:hover {
+    background-color: rgb(132, 165, 177);
 }
 
 .game_message {
@@ -63,4 +71,8 @@ h1 {
     font-size: 2rem;
     height: 4rem;
     width: 8rem;
+}
+
+#restart_game_btn:hover {
+    background-color: rgb(173, 92, 92);
 }
